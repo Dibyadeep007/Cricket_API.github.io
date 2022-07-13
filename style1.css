@@ -1,0 +1,48 @@
+body{
+    background-image:url(https://t4.ftcdn.net/jpg/02/98/36/33/360_F_298363329_or4WmbHHNa6mLHKgg5olz5AyaOaCThV7.jpg);
+   
+}
+h1{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: greenyellow;
+}
+a:active{
+    color:yellow;
+}
+.container{
+    margin-top: 6px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: auto;
+}
+.btn{
+    width: 100px;
+    color: white;
+    background-color: rgb(255, 0, 68);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 yellow;
+    transition: ease-out 0.3s;
+    font-size: 15px;
+}
+.btn:hover{
+    box-shadow: inset 100px 0 0 0 yellow;
+    cursor: pointer;
+    color: black;
+}
